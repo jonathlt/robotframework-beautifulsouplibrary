@@ -22,11 +22,9 @@ except ImportError:
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
 
-from BeautifulSoupLibrary import __version__
-
 def main():
     setup(name         = 'robotframework-beautifulsouplibrary',
-          version      = __version__,
+          version      = 1,
           install_requires = ['beautifulsoup4'],
           description  = 'Beautiful Soup Testing Keywords for Robot Framework',
           author       = 'Astun Technology',
