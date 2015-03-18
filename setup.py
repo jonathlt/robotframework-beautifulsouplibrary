@@ -24,6 +24,7 @@ from BeautifulSoupLibrary import __version__
 def main():
     setup(name         = 'robotframework-beautifulsouplibrary',
           version      = __version__,
+          install_requires = ['beautifulsoup4'],
           description  = 'Beautiful Soup Testing Keywords for Robot Framework',
           author       = 'Astun Technology',
           author_email = '',
